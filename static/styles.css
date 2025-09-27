@@ -121,3 +121,126 @@ button:hover{
     margin-top: 0.5rem;
     font-size:0.75rem;
 }
+
+@media (max-width:480px){
+    h1{
+        background-color: #115740;
+        color: white;
+        border-radius:0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:2rem;
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color: white;
+    }
+    
+    .department-buttons{
+        width:100%;
+        display: flex;
+        gap: 1rem;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .department-buttons a{
+        font-size:1rem;
+        border-radius: 0.5rem;
+        background-color: #115740;
+        color: white;
+        padding: 0.25rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        flex: 1;
+    }
+    
+    .department-buttons a:hover{
+        cursor: pointer;
+        background-color: #B9975B;
+        border-color: #B9975B;
+        color: white;
+    }
+    
+    .department-buttons a.active{
+        background-color: #B9975B;
+        border-color: #B9975B;
+        color: white;
+    }
+    
+    button{
+        font-size:1rem;
+        border-radius: 0.5rem;
+        background-color: #115740;
+        color: white;
+        padding: 0.5rem;
+        flex: 1;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        background-color: #B9975B;
+        border-color: #B9975B;
+        color: white;
+    }
+    
+    .research-cards{
+        margin-top:1rem;
+        letter-spacing: 0.05rem;
+        margin-bottom:1rem;
+        width:100%;
+        display: flex;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card{
+        padding:0.5rem 1rem 1rem 1rem;
+        background-color: #e2e2e2;
+        border-radius:0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: black;
+        border:none;
+        text-align: left;
+    }
+    
+    .card:hover{
+        background-color: #3a3a3a;
+    }
+    
+    .card-trey{
+        background-color: #fffaeb;
+    }
+    
+    .card-yixuan{
+        background-color: #e9ffea;
+    }
+    
+    .card-bren{
+        background-color: #efe6ff;
+    }
+    
+    .card-chaparro{
+        background-color: #ffe7fe;
+    }
+    
+    .card-denysp{
+        background-color: #ffeee2;
+    }
+    
+    .card-description{
+        margin-top: 0.5rem;
+        font-size:0.75rem;
+    }
+    
+}
