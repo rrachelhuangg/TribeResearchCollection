@@ -32,6 +32,28 @@ a:hover{
     margin-bottom: 1rem;
 }
 
+.department-buttons a{
+    font-size:1rem;
+    border-radius: 0.5rem;
+    background-color: #115740;
+    color: white;
+    padding: 0.5rem;
+    flex: 1;
+}
+
+.department-buttons a:hover{
+    cursor: pointer;
+    background-color: #B9975B;
+    border-color: #B9975B;
+    color: white;
+}
+
+.department-buttons a.active{
+    background-color: #B9975B;
+    border-color: #B9975B;
+    color: white;
+}
+
 button{
     font-size:1rem;
     border-radius: 0.5rem;

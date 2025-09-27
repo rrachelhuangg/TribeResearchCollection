@@ -8,13 +8,13 @@
 
 <h1>The Tribe Research Collection</h1>
 <div class="department-buttons">
-    <button>Computer Science</button>
-    <button>Mathematics</button>
-    <button>Biology</button>
-    <button>Humanities</button>
+    <a href="{{url_for('cs')}}" class="{%if active_tab=='cs'%}active{%endif%}">Computer Science</a>
+    <a href="{{url_for('math')}}" class="{%if active_tab=='math'%}active{%endif%}">Mathematics</a>
+    <a href="{{url_for('biology')}}" class="{%if active_tab=='biology'%}active{%endif%}">Biology</a>
+    <a href="{{url_for('english')}}" class="{%if active_tab=='english'%}active{%endif%}">English</a>
 </div>
 <div class="research-cards">
-    {%for research in cs_research_data%}
+    {%for research in research_data%}
     <a href="{{research.link}}" class="card {%if research.professor == 'Trey Woodlief'%}card-trey {%elif research.professor == 'Yixuan Zhang'%}card-yixuan {%elif research.professor == 'Bin Ren'%}card-bren {%elif research.professor == 'Oscar Chaparro'%}card-chaparro {%elif research.professor == 'Denys Poshyvanyk'%}card-denysp {%endif%}" target="_blank">
         <div class="card-title">
             {{research.title}}
