@@ -124,15 +124,13 @@ button:hover{
 
 @media (max-width:480px){
     h1{
-        /* background-color: #115740; */
-        background-color: blue;
+        background-color: #115740;
         color: white;
         border-radius:0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top:1rem;
-        padding-bottom:1rem;
+        padding:1rem;
     }
     
     a{
@@ -146,12 +144,14 @@ button:hover{
     .department-buttons{
         width:100%;
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
         margin-top:1rem;
         margin-bottom: 1rem;
     }
     
     .department-buttons a{
+        flex: 1 1 calc(50% - 0.25rem);
+        text-align: center;
         font-size:1rem;
         border-radius: 0.5rem;
         background-color: #115740;
