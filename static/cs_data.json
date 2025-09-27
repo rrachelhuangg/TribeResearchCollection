@@ -1,0 +1,104 @@
+[
+    {
+        "title":"Scene Flow Specifications: Encoding and Monitoring Rich Temporal Safety Properties of Autonomous Systems",
+        "professor":"Trey Woodlief",
+        "link":"https://treywoodlief.com/files/fse_scene_flow.pdf",
+        "description":"Ensuring the safety of autonomous systems requires addressing the challenge of bridging the gap between sensor input and semantic understanding, which recent advancements have tackled using scene graphs to facilitate the specification of safety properties."
+    },
+    {
+        "title":"A Differential Testing Framework to Identify Critical AV Failures Leveraging Arbitrary Inputs",
+        "professor":"Trey Woodlief",
+        "link":"https://treywoodlief.com/files/Differential_Testing_ICSE_2025.pdf",
+        "description":"The emergence of autonomous vehicles highlights their failures, which are difficult to test due to the rarity of scenarios, and while open datasets can help explore these, they lack necessary oracles, prompting the proposal of DIFFTEST4AV, a new testing framework."
+    },
+    {
+        "title":"What Do We Mean When We Talk about Trust in Social Media? A Systematic Review",
+        "professor":"Yixuan Zhang",
+        "link":"https://zjanice.github.io/assets/papers/CHI23_trust_systematic_review_Zhang.pdf",
+        "description":"Researchers conducted a systematic review of 70 papers to define and understand trust in social media, highlighting its complexities and implications on behaviors, with a focus on clarifying its antecedents and suggesting directions for future research."
+    },
+    {
+        "title":"Synthetic Lies: Understanding AI-Generated Misinformation and Evaluating Algorithmic and Human Solutions",
+        "professor":"Yixuan Zhang",
+        "link":"https://zjanice.github.io/assets/papers/CHI23_AI_misinfo.pdf",
+        "description":"This study reveals that AI-generated misinformation (AI-misinfo) exhibits distinct linguistic patterns compared to human-created misinformation, potentially meeting existing information assessment criteria, yet classification models show reduced performance on AI-misinfo, highlighting new challenges for addressing misinformation."
+    },
+    {
+        "title":"Will Your Next Pair Programming Partner Be Human? An Empirical Evaluation of Generative AI as a Collaborative Teammate in a Semester-Long Classroom Setting",
+        "professor":"Yixuan Zhang",
+        "link":"https://zjanice.github.io/assets/papers/LS25_pairprogramming.pdf",
+        "description":"The study explores how Generative AI, particularly Large Language Models, impacts collaboration, learning, and performance in pair programming among 39 undergraduate students."
+    },
+    {
+        "title":"Understanding Attitudes and Trust of Generative AI Chatbots for Social Anxiety Support",
+        "professor":"Yixuan Zhang",
+        "link":"https://zjanice.github.io/assets/papers/CHI25_GenAI_SocialAnxiety.pdf",
+        "description":"The study found that individuals with severe social anxiety symptoms are more likely to trust and embrace generative AI chatbots for their non-judgmental and empathetic support, while those with milder symptoms prioritize technical reliability, highlighting important factors influencing trust and design implications for these chatbots."
+    },
+    {
+        "title":"MicroSpec: Speculation-Centric Fine-Grained Parallelization for FSM Computations",
+        "professor":"Bin Ren",
+        "link":"https://www.cs.wm.edu/~bren/files/papers/PACT16.pdf",
+        "description":"MicroSpec introduces parallelization techniques to enhance FSM computations by revealing fine-grained speculative parallelism, significantly improving performance over current methods."
+    },
+    {
+        "title":"Efficient Execution of Recursive Programs on Commodity Vector Hardware",
+        "professor":"Bin Ren",
+        "link":"https://www.cs.wm.edu/~bren/files/papers/PLDI15.pdf",
+        "description":"This paper presents novel code transformations and scheduling policies to expose data parallelism in recursive, task-parallel programs, enabling efficient vectorization and substantial speedup on throughput-oriented hardware like Intel's SSE4.2 and AVX512 units.."
+    },
+    {
+        "title":"Efficient and Simplified Parallel Graph Processing over CPU and MIC",
+        "professor":"Bin Ren",
+        "link":"https://www.cs.wm.edu/~bren/files/papers/IPDPS15.pdf",
+        "description":"This paper develops a system for efficient heterogeneous graph processing on nodes using Intel Xeon Phi and CPUs, offering a user-friendly API for SIMD parallelism."
+    },
+    {
+        "title":"A Programming System for Xeon Phis with Runtime SIMD Parallelization",
+        "professor":"Bin Ren",
+        "link":"https://www.cs.wm.edu/~bren/files/papers/ICS14.pdf",
+        "description":"The paper explores accelerating applications on Intel Xeon Phi by effectively utilizing SIMD parallelism through a newly proposed API for shared memory and SIMD parallelization."
+    },
+    {
+        "title":"LadyBug: A GitHub Bot for UI-Enhanced Bug Localization in Mobile Apps",
+        "professor":"Oscar Chaparro",
+        "link":"https://ojcchar.github.io/files/39-icsme25-gui-bl.pdf",
+        "description":"LadyBug is a GitHub bot that automates bug localization for Android apps by integrating UI interaction data with text retrieval to generate a ranked list of files likely containing the reported bug."
+    },
+    {
+        "title":"Developer Perspectives on Licensing and Copyright Issues Arising from Generative AI for Software Development",
+        "professor":"Oscar Chaparro",
+        "link":"https://ojcchar.github.io/files/38-tosem25-copyright-ai.pdf",
+        "description":"The paper surveys 574 developers on licensing, copyright, ownership, legal risks, and future regulation implications of Generative AI tools in coding."
+    },
+    {
+        "title":"Decoding the Issue Resolution Process in Practice via Issue Report Analysis: A Case Study of Firefox",
+        "professor":"Oscar Chaparro",
+        "link":"https://ojcchar.github.io/files/37-icse25-issues.pdf",
+        "description":"This paper seeks to improve understanding of the practical issue resolution process in software development by analyzing Mozilla Firefox's issue reports, despite the process being generally known but not well-documented in terms of implementation and discussion among developers."
+    },
+    {
+        "title":"When Quantum Meets Classical: Characterizing Hybrid Quantum-Classical Issues Discussed in Developer Forums",
+        "professor":"Oscar Chaparro",
+        "link":"https://ojcchar.github.io/files/36-icse25-quantum.pdf",
+        "description":"Recent advances in quantum computing show promise, but due to current hardware limitations and noise, hybrid quantum-classical computing has emerged as a hopeful compromise, and this paper explores it from a software engineering perspective through an empirical study on developers' challenges."
+    },
+    {
+        "title":"Combining Language and App UI Analysis for the Automated Assessment of Bug Reproduction Steps",
+        "professor":"Oscar Chaparro",
+        "link":"https://ojcchar.github.io/files/35-icpc25-astrobr.pdf",
+        "description":"Clear and comprehensive bug reports, particularly the steps to reproduce the issues, are crucial for developers to efficiently diagnose and resolve software problems."
+    },
+    {
+        "title":"On the Effectiveness of LLM-as-a-judge for Code Generation and Summarization",
+        "professor":"Denys Poshyvanyk",
+        "link":"https://www.cs.wm.edu/~denys/pubs/TSE-LLMs-as-a-judge.pdf",
+        "description":"Large Language Models are being tested as evaluators for complex NLP tasks, like Q&A, to judge the quality of outputs where traditional metrics fall short and human evaluation is costly, with studies focusing on their effectiveness for code generation and summarization tasks."
+    },
+    {
+        "title":"Toward a Theory of Causation for Interpreting Neural Code Models",
+        "professor":"Denys Poshyvanyk",
+        "link":"https://arxiv.org/pdf/2302.03788.pdf",
+        "description":"The paper introduces $d o _ { c o d e }$, a post hoc interpretability method for Neural Code Models (NCMs) that uses causal inference to provide programming language-oriented explanations of model predictions, addressing their capabilities and limitations."
+    }
+]
