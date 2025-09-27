@@ -7,7 +7,12 @@
 
 <body>
 
-<h1>The Tribe Research Collection</h1>
+<h1>
+    The Tribe Research Collection
+    <span class="website-description">
+        The Tribe Research Collection is an application intended to help users learn about the research publications that William & Mary professors have been working on. Project data is web-scraped from William & Mary websites using Firecrawl, and summarized with GPT-4o. Built and deployed with Flask and Vercel. Clicking on each project card leads to the publication for the corresponding project. 
+    </span>
+</h1>
 <div class="department-buttons">
     <a href="{{url_for('cs')}}" class="{%if active_tab=='cs'%}active{%endif%}">Computer Science</a>
     <a href="{{url_for('math')}}" class="{%if active_tab=='math'%}active{%endif%}">Mathematics</a>

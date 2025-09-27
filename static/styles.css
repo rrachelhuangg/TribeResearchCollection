@@ -14,10 +14,16 @@ h1{
     color: white;
     border-radius:0.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top:1rem;
     padding-bottom:1rem;
+}
+
+.website-description{
+    font-size: 0.9rem;
+    margin:1rem;
 }
 
 a{
@@ -132,9 +138,15 @@ button:hover{
         color: white;
         border-radius:0.5rem;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding:1rem;
+    }
+
+    .website-description{
+        font-size: 0.9rem;
+        margin:1rem;
     }
     
     a{
