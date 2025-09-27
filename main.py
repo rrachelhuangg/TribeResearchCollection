@@ -15,7 +15,9 @@ def math():
 
 @app.route('/biology')
 def biology():
-    return render_template('homepage.html', research_data={}, active_tab='biology')
+    with open('static/bio_data.json') as file:
+        bio_research_data = json.load(file)
+    return render_template('homepage.html', research_data=bio_research_data, active_tab='biology')
 
 @app.route('/english')
 def english():
