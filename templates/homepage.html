@@ -6,7 +6,7 @@
 
 <body>
 
-<h1>The William & Mary Archive</h1>
+<h1>The Tribe Research Collection</h1>
 <div class="department-buttons">
     <button>Computer Science</button>
     <button>Mathematics</button>
@@ -14,30 +14,19 @@
     <button>Humanities</button>
 </div>
 <div class="research-cards">
-    <button class="card">
+    {%for research in cs_research_data%}
+    <a href="{{research.link}}" class="card {%if research.professor == 'Trey Woodlief'%}card-trey {%elif research.professor == 'Yixuan Zhang'%}card-yixuan {%elif research.professor == 'Bin Ren'%}card-bren {%elif research.professor == 'Oscar Chaparro'%}card-chaparro {%elif research.professor == 'Denys Poshyvanyk'%}card-denysp {%endif%}" target="_blank">
         <div class="card-title">
-            Research Title
+            {{research.title}}
+            <div class="card-description" >
+                {{research.professor}}
+            </div>
             <div class="card-description">
-                Research Summary
+                {{research.description}}
             </div>
         </div>
-    </button>
-    <button class="card">
-        <div class="card-title">
-            Research Title
-            <div class="card-description">
-                Research Summary
-            </div>
-        </div>
-    </button>
-    <button class="card">
-        <div class="card-title">
-            Research Title
-            <div class="card-description">
-                Research Summary
-            </div>
-        </div>
-    </button>
+    </a>
+    {%endfor%}
 </div>
 
 </body>

@@ -16,6 +16,14 @@ h1{
     padding-bottom:1rem;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
 .department-buttons{
     width:100%;
     display: flex;
@@ -65,6 +73,26 @@ button:hover{
 
 .card:hover{
     background-color: #3a3a3a;
+}
+
+.card-trey{
+    background-color: #fffaeb;
+}
+
+.card-yixuan{
+    background-color: #e9ffea;
+}
+
+.card-bren{
+    background-color: #efe6ff;
+}
+
+.card-chaparro{
+    background-color: #ffe7fe;
+}
+
+.card-denysp{
+    background-color: #ffeee2;
 }
 
 .card-description{
