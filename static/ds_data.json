@@ -1,0 +1,128 @@
+[
+    {
+        "title":"Plant and animal endemism in the eastern Andean slope: challenges to conservation",
+        "professor":"Jennifer Swenson",
+        "link":"http://www.biomedcentral.com/content/pdf/1472-6785-12-1.pdf",
+        "description":"The Andes-Amazon basin in Peru and Bolivia is a biologically rich but understudied area with high endemism and unknown species distributions."
+    },
+    {
+        "title":"Measuring News Similarity Across Ten U.S. News Sites",
+        "professor":"Alexander Nwala",
+        "link":"https://www.cs.odu.edu/~mln/pubs/ipres-2018/ipres-2018-atkins-news-similarity.pdf",
+        "description":"The text discusses a method to identify and measure the similarity of top emphasized news stories across various U.S.-based news websites, highlighting the widespread but poorly quantified phenomena of editorial decision-making and story selection."
+    },
+    {
+        "title":"The Many Shapes of Archive-It",
+        "professor":"Alexander Nwala",
+        "link":"https://www.cs.odu.edu/~mln/pubs/ipres-2018/ipres-2018-jones-archiveit.pdf",
+        "description":"Web archives are crucial for digital preservation, enabling journalists, social scientists, historians, and government organizations to curate and manage their own collections by selecting original resources."
+    },
+    {
+        "title":"Bootstrapping Web Archive Collections from Social Media",
+        "professor":"Alexander Nwala",
+        "link":"https://www.cs.odu.edu/~mln/pubs/ht-2018/hypertext-2018-nwala-bootstrapping.pdf",
+        "description":"Automatically and semiautomatically generated archived web collections from social media platforms offer a cost-effective alternative to human-curated collections and were analyzed for their similarity to Archive-It collections."
+    },
+    {
+        "title":"Scraping SERPs for Archival Seeds: It Matters When You Start",
+        "professor":"Alexander Nwala",
+        "link":"https://www.cs.odu.edu/~mln/pubs/jcdl-2018/jcdl-2018-nwala-scraping-serps-seeds.pdf",
+        "description":"The paper investigates how the retrievability of URIs of news stories found on Google changes over time, impacting event-based collection building."
+    },
+    {
+        "title":"Query-Driven Multimodal GraphRAG: Dynamic Local Knowledge Graph Construction for Online Reasoning",
+        "professor":"Yi He",
+        "link":"https://aclanthology.org/2025.findings-acl.1100.pdf",
+        "description":"AThe proposed Query-Driven Multimodal GraphRAG framework enhances interpretability and reliability of LLMs in complex reasoning tasks by dynamically constructing query-specific local knowledge graphs, excelling in cross-modal understanding and achieving state-of-the-art performance on MultimodalQA and WebQA datasets."
+    },
+    {
+        "title":"HGDL: Heterogeneous Graph Label Distribution Learning",
+        "professor":"Heng Lian, Yi He",
+        "link":"https://proceedings.neurips.cc/paper_files/paper/2024/file/47eb2874a790d5b1f554b9bb93b3de9d-Paper-Conference.pdf",
+        "description":"This paper introduces a novel framework for heterogeneous graph label distribution learning (HGDL) that addresses challenges of node type, attribute, and neighborhood structure heterogeneity using proactive graph topology homogenization and a consistency-aware graph transformer, demonstrating its effectiveness through theoretical and empirical validation."
+    },
+    {
+        "title":"Learning Gradual Typing Performance",
+        "professor":"Yi He",
+        "link":"https://drops.dagstuhl.de/storage/00lipics/lipics-vol313-ecoop2024/LIPIcs.ECOOP.2024.21/LIPIcs.ECOOP.2024.21.pdf",
+        "description":"Gradual typing, which seeks to merge the benefits of static and dynamic typing, faces challenges with unpredictable performance, prompting efforts to optimize it, though understanding and managing the performance landscape during program migration remains underdeveloped."
+    },
+    {
+        "title":"Towards Utilitarian Online Learning – A Review of Online Algorithms in Open Feature Space",
+        "professor":"Yi He",
+        "link":"https://www.ijcai.org/proceedings/2023/0745.pdf",
+        "description":" This paper reviews recent advancements in Utilitarian Online Learning (UOL) within open feature spaces, categorizes existing models, assesses their strengths and weaknesses, examines application scenarios, benchmarks model performance, and explores challenges and future research directions."
+    },
+    {
+        "title":"Generating Virtual Reality Stroke Gesture Data from Out-of-Distribution Desktop Stroke Gesture Data",
+        "professor":"Jindong Wang",
+        "link":"https://jd92.wang/assets/files/vr24.pdf",
+        "description":"The paper utilizes desktop interaction data to generate VR interaction data, focusing on time-varying stroke gestures to aid user behavior analysis and experience enhancement."
+    },
+    {
+        "title":"Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning",
+        "professor":"Jindong Wang",
+        "link":"https://jd92.wang/assets/files/iccv23.pdf",
+        "description":"The paper introduces Robustness Critical Fine-Tuning (RiFT), a method aimed at improving the generalization of deep neural networks while maintaining adversarial robustness, addressing limitations of traditional Adversarial Training."
+    },
+    {
+        "title":"MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare",
+        "professor":"Jindong Wang",
+        "link":"https://arxiv.org/pdf/2206.08516.pdf",
+        "description":"MetaFed is a novel framework for federated learning that enhances model personalization and performance across federations without a central server, using Cyclic Knowledge Distillation to overcome data heterogeneity, and improves accuracy and communication efficiency in healthcare applications."
+    },
+    {
+        "title":"Exploiting Unlabeled Data for Target-Oriented Opinion Words Extraction",
+        "professor":"Jindong Wang",
+        "link":"https://jd92.wang/assets/files/coling22.pdf",
+        "description":"The paper proposes a Multi-Grained Consistency Regularization (MGCR) method to leverage unlabeled data for improving Target-oriented Opinion Words Extraction (TOWE), addressing training data scarcity and distribution shifts, and demonstrates its effectiveness on benchmark datasets."
+    },
+    {
+        "title":"Generalizing to Unseen Domains: A Survey on Domain Generalization",
+        "professor":"Jindong Wang",
+        "link":"https://jd92.wang/assets/files/DG_survey_TKDE22.pdf",
+        "description":"This paper provides a comprehensive review of recent advances in domain generalization, a field focused on developing models that can generalize to unseen test domains, by defining the concept, categorizing related algorithms, discussing theories, and suggesting future research topics."
+    },
+    {
+        "title":"AutoRuleSQL: Hybrid Text-to-SQL via Rule-Driven Fast Paths and LLM Bootstrapping",
+        "professor":"Haipeng Chen",
+        "link":"https://haipeng-chen.github.io/files/25cikm_AutoRuleSQL.pdf",
+        "description":"AutoRuleSQL, a hybrid NL2SQL system, enhances real-time query efficiency by combining template-based methods with LLM fallback, reducing latency by over 12.6% and improving accuracy by up to 4.0%."
+    },
+    {
+        "title":"SEQUENTIAL STOCHASTIC COMBINATORIAL OPTIMIZATION USING HIERARCHICAL REINFORCEMENT LEARNING",
+        "professor":"Haipeng Chen",
+        "link":"https://haipeng-chen.github.io/files/25iclr-RL-SSCO.pdf",
+        "description":"This paper introduces a novel hierarchical reinforcement learning framework, wake-sleep option (WS-option), to address sequential stochastic combinatorial optimization problems effectively, demonstrating improved effectiveness, generalizability, and computational efficiency over traditional methods."
+    },
+    {
+        "title":"CAN REINFORCEMENT LEARNING SOLVE ASYMMETRIC COMBINATORIAL-CONTINUOUS ZERO-SUM GAMES?",
+        "professor":"Haipeng Chen",
+        "link":"https://haipeng-chen.github.io/files/25iclr-RL-ACESS.pdf",
+        "description":"The paper introduces and analyzes two-player Asymmetric Combinatorial-Continuous zEro-Sum (ACCES) games, proves Nash equilibrium existence, develops the Combinatorial Continuous DO (CCDO) algorithm to solve them, and presents the CCDORL algorithm based on reinforcement learning, with experiments validating their effectiveness."
+    },
+    {
+        "title":"Population Aware Diffusion for Time Series Generation",
+        "professor":"Haipeng Chen",
+        "link":" https://haipeng-chen.github.io/files/25aaai-pad-ts.pdf",
+        "description":"PaD-TS is a new time series generation model designed to preserve population-level properties, like value distributions and cross-correlation, reducing distribution shifts while maintaining individual-level data authenticity, demonstrating substantial improvements over existing models."
+    },
+    {
+        "title":"Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks",
+        "professor":"Qingyun Wang",
+        "link":"https://aclanthology.org/2025.findings-acl.331.pdf",
+        "description":"The study explores how Vision-Language Models can self-correct and improve using a Self-Correction Learning approach during fine-tuning, demonstrating enhanced performance without external feedback, unlike during iterative inference."
+    },
+    {
+        "title":"CALM: Unleashing the Cross-Lingual Self-Aligning Ability of Language Model Question Answering",
+        "professor":"Qingyun Wang",
+        "link":"https://aclanthology.org/2025.findings-naacl.152.pdf",
+        "description":"This paper investigates the ability of Language Models to align multilingual knowledge, improving cross-lingual question answering and performing effectively in zero-shot and retrieval-augmented contexts."
+    },
+    {
+        "title":"SCIMON : Scientific Inspiration Machines Optimized for Novelty",
+        "professor":"Qingyun Wang",
+        "link":"https://aclanthology.org/2024.acl-long.18.pdf",
+        "description":"The study aims to improve neural language models' capacity to generate innovative scientific ideas from literature by using background contexts instead of traditional binary link prediction, thus enhancing expressivity and novelty."
+    }
+]

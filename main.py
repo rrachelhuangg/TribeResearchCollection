@@ -21,6 +21,8 @@ def biology():
         bio_research_data = json.load(file)
     return render_template('homepage.html', research_data=bio_research_data, active_tab='biology')
 
-@app.route('/english')
-def english():
-    return render_template('homepage.html', research_data={}, active_tab='english')
+@app.route('/data_science')
+def data_science():
+    with open('static/ds_data.json') as file:
+        ds_research_data = json.load(file)
+    return render_template('homepage.html', research_data=ds_research_data, active_tab='data_science')
