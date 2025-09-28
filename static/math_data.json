@@ -1,0 +1,68 @@
+[
+    {
+        "title":"REAL MOMENTS OF THE LOGARITHMIC DERIVATIVE OF CHARACTERISTIC POLYNOMIALS IN RANDOM MATRIX ENSEMBLES",
+        "professor":"Fan Ge",
+        "link":"https://arxiv.org/pdf/2304.02153.pdf",
+        "description":"We establish asymptotics for real moments of the logarithmic derivative of characteristic polynomials at 1-a/N in unitary, even orthogonal, and symplectic ensembles, using a novel method that does not rely on previous integer moment results."
+    },
+    {
+        "title":"PENALIZED DEEP PARTIALLY LINEAR COX MODELS WITH APPLICATION TO CT SCANS OF LUNG CANCER PATIENTS",
+        "professor":"Yuming Sun",
+        "link":"https://arxiv.org/pdf/2303.05341.pdf",
+        "description":"The proposed Penalized Deep Partially Linear Cox Model integrates SCAD penalty and deep neural networks to effectively analyze the impact of clinical and imaging risk factors on lung cancer survival, offering valuable insights and enhancing risk prediction and feature selection in the National Lung Screening Trial dataset."
+    },
+    {
+        "title":"INDIVIDUALIZED RISK ASSESSMENT OF PREOPERATIVE OPIOID USE BY INTERPRETABLE NEURAL NETWORK REGRESSION",
+        "professor":"Yuming Sun",
+        "link":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10065608/pdf/nihms-1836641.pdf",
+        "description":"Preoperative opioid use is linked to increased demand and worse outcomes post-surgery, and a new Interpretable Neural Network Regression (INNER) model aims to improve risk assessment by combining statistical and deep neural network methods for more interpretable predictions."
+    },
+    {
+        "title":"EXISTENCE AND MULTIPLICITY OF POSITIVE SOLUTIONS TO NONLINEAR SCHRODINGER EQUATIONS ON A BRIDGE ¨ TYPE UNBOUNDED GRAPH",
+        "professor":"Junping Shi",
+        "link":"https://jxshix.people.wm.edu/shi/Shi-Zhou-2025-PAMS.pdf",
+        "description":" The text demonstrates the existence of positive standing wave solutions and possibly multiple positive solutions to a nonlinear Schrödinger equation on a bridge-type unbounded metric graph, with similar findings for the equation with bistable nonlinearity."
+    },
+    {
+        "title":"Local and global bifurcation analysis of density-suppressed motility model",
+        "professor":"Junping Shi",
+        "link":"https://jxshix.people.wm.edu/shi/Liu-Shi-Jiang-2025-JMAA.pdf",
+        "description":"The paper investigates a reaction-diffusion population model with spatial heterogeneity, establishing local-in-time classical solutions and determining bifurcation directions for non-constant steady-state solutions based on density-suppressed diffusion."
+    },
+    {
+        "title":"Biological aggregations from spatial memory and nonlocal advection",
+        "professor":"Junping Shi",
+        "link":"https://jxshix.people.wm.edu/shi/Liu-Potts-Salmaniw-Shi-Wang-2025-PhyD.pdf",
+        "description":"The study explores a nonlocal reaction–diffusion–advection model with spatial memory and nonlocal detection, proving the existence and uniqueness of a global weak solution in one dimension, enhancing the mathematical understanding of these ecological models."
+    },
+    {
+        "title":"On determination of the bifurcation type for a free boundary problem modeling tumor growth",
+        "professor":"Junping Shi",
+        "link":"https://jxshix.people.wm.edu/shi/2025-Zhao-Shi-JDE.pdf",
+        "description":"The paper explores symmetry-breaking bifurcations in a 2D tumor growth model, revealing they are all pitchfork bifurcations."
+    },
+    {
+        "title":"ON A REACTION-DIFFUSION-ADVECTION GLUCOSE METABOLISM MODEL",
+        "professor":"Junping Shi",
+        "link":"https://jxshix.people.wm.edu/shi/2025-Tao-Shi-SIAP.pdf",
+        "description":"A reaction-diffusion-advection model for glucose metabolism in pancreatic islets is developed to analyze spatiotemporal behaviors and identify key physiological factors, demonstrating dynamics across various metabolic conditions to aid therapeutic strategies."
+    },
+    {
+        "title":"On the (1^2, 2^4)-packing edge-coloring of subcubic graphs",
+        "professor":"Gexin Yu",
+        "link":"https://arxiv.org/pdf/2402.18353.pdf",
+        "description":"The paper confirms that every connected subcubic graph with more than 70 vertices is $(1^{2}, 2^{4})$-packing edge-colorable, affirming the conjecture by Gastineau, Togni, Hocquard, Lajou, and Lušar, while noting the existence of subcubic graphs that are not ** packing edge-colorable."
+    },
+    {
+        "title":"The circular altitude of a graph",
+        "professor":"Eric Swartz",
+        "link":"http://ajc.maths.uq.edu.au/pdf/72/ajc_v72_p357.pdf",
+        "description":"The paper explores the circular altitude parameter of graphs, revealing it as a lower bound for both the circular chromatic number and the chromatic number, particularly analyzing its application to the iterated Mycielskian of specific graphs."
+    },
+    {
+        "title":"Use of machine learning to assess the prognostic utility of radiomic features for in‑hospital COVID‑19 mortality",
+        "professor":"Yuming Sun",
+        "link":"https://yumingsun.github.io/personal_website/publication/paper/s41598-023-34559-0.pdf",
+        "description":"The study found that incorporating radiomic texture features from chest X-rays into machine learning models enhances the prediction of in-hospital mortality, especially for older patients or those with more comorbidities."
+    }
+]

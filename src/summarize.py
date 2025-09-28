@@ -6,7 +6,7 @@ client = OpenAI(
 )
 
 try:
-    with open("../static/cs_data.json") as file:
+    with open("../static/math_data.json") as file:
         cs_data = json.load(file)
     for entry in cs_data:
         text_to_summarize = entry["description"]

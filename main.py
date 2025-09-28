@@ -11,7 +11,9 @@ def cs():
 
 @app.route('/math')
 def math():
-    return render_template('homepage.html', research_data={}, active_tab='math')
+    with open('static/math_data.json') as file:
+        math_research_data = json.load(file)
+    return render_template('homepage.html', research_data=math_research_data, active_tab='math')
 
 @app.route('/biology')
 def biology():
