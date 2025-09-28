@@ -20,3 +20,7 @@ Firecrawl is a very powerful web-scraper that is able to return extremely clean 
 
 ## What's next for The Tribe Research Collection
 Finding a way to surpass the Firecrawl API limits so that more project data can be scraped at one time. Implement a refresh button that can rescrape and reprocess data when the user wants to make sure that the displayed data is the most up-to-date.
+
+## Try it out! 
+https://tribe-research-collection-2025-hack.vercel.app/ 
+
